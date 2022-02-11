@@ -1,0 +1,10 @@
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe.config
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\bin\Debug\WebBrowser.pdb
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csprojAssemblyReference.cache
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\obj\Debug\WebBrowser.FrmMain.resources
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\obj\Debug\WebBrowser.Properties.Resources.resources
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.GenerateResource.cache
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.CoreCompileInputs.cache
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\obj\Debug\WebBrowser.exe
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\WebBrowser\WebBrowser\obj\Debug\WebBrowser.pdb
