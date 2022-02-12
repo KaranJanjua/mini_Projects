@@ -29,6 +29,7 @@ namespace WebBrowser
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
@@ -37,6 +38,7 @@ namespace WebBrowser
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.Combolocation = new System.Windows.Forms.ToolStripComboBox();
             this.btnGo = new System.Windows.Forms.ToolStripButton();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,12 +59,15 @@ namespace WebBrowser
             // 
             // webBrowser1
             // 
+            this.webBrowser1.ContextMenuStrip = this.contextMenuStrip1;
             this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.IsWebBrowserContextMenuEnabled = false;
             this.webBrowser1.Location = new System.Drawing.Point(0, 42);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(800, 408);
             this.webBrowser1.TabIndex = 2;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // BtnBack
             // 
@@ -91,6 +96,7 @@ namespace WebBrowser
             // 
             // Combolocation
             // 
+            this.Combolocation.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.AllUrl;
             this.Combolocation.Name = "Combolocation";
             this.Combolocation.Size = new System.Drawing.Size(121, 42);
             this.Combolocation.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Combolocation_KeyDown);
@@ -104,6 +110,12 @@ namespace WebBrowser
             this.btnGo.Size = new System.Drawing.Size(49, 36);
             this.btnGo.Text = "Go";
             this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // FrmMain
             // 
@@ -130,6 +142,7 @@ namespace WebBrowser
         private System.Windows.Forms.ToolStripComboBox Combolocation;
         private System.Windows.Forms.ToolStripButton btnGo;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
 
