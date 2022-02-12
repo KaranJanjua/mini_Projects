@@ -72,6 +72,7 @@ namespace WebBrowser
             this.BtnBack.Name = "BtnBack";
             this.BtnBack.Size = new System.Drawing.Size(68, 36);
             this.BtnBack.Text = "Back";
+            this.BtnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
             // btnFwd
             // 
@@ -81,6 +82,7 @@ namespace WebBrowser
             this.btnFwd.Name = "btnFwd";
             this.btnFwd.Size = new System.Drawing.Size(104, 36);
             this.btnFwd.Text = "Forward";
+            this.btnFwd.Click += new System.EventHandler(this.btnFwd_Click);
             // 
             // toolStripSeparator1
             // 
@@ -91,6 +93,7 @@ namespace WebBrowser
             // 
             this.Combolocation.Name = "Combolocation";
             this.Combolocation.Size = new System.Drawing.Size(121, 42);
+            this.Combolocation.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Combolocation_KeyDown);
             // 
             // btnGo
             // 
@@ -100,6 +103,7 @@ namespace WebBrowser
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(49, 36);
             this.btnGo.Text = "Go";
+            this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
             // FrmMain
             // 

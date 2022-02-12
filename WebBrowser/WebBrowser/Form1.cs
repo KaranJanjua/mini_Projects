@@ -16,5 +16,29 @@ namespace WebBrowser
         {
             InitializeComponent();
         }
+
+        private void Combolocation_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                webBrowser1.Navigate(Combolocation.Text);
+            }
+        }
+
+        private void BtnBack_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoBack();
+        }
+
+        private void btnFwd_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoForward();
+        }
+
+        private void btnGo_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(Combolocation.Text);
+           
+        }
     }
 }
