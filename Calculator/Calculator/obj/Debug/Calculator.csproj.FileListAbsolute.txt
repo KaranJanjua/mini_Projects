@@ -1,0 +1,10 @@
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\obj\Debug\Calculator.CalculatorForm.resources
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\karanbirjanjua\source\repos\Mini_Projects_WFA\Calculator\Calculator\obj\Debug\Calculator.pdb
